@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="240083" started-at="2023-03-01T10:24:45Z" finished-at="2023-03-01T10:28:45Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Grooping.test()[pri:0, instance:A.Grooping@42e26948]" name="test" class="A.Grooping"/>
+        <method signature="Grooping.test3()[pri:0, instance:A.Grooping@42e26948]" name="test3" class="A.Grooping"/>
+        <method signature="Grooping.test5()[pri:0, instance:A.Grooping@42e26948]" name="test5" class="A.Grooping"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Grooping.test2()[pri:0, instance:A.Grooping@42e26948]" name="test2" class="A.Grooping"/>
+        <method signature="Grooping.test3()[pri:0, instance:A.Grooping@42e26948]" name="test3" class="A.Grooping"/>
+        <method signature="Grooping.test4()[pri:0, instance:A.Grooping@42e26948]" name="test4" class="A.Grooping"/>
+        <method signature="Grooping.test5()[pri:0, instance:A.Grooping@42e26948]" name="test5" class="A.Grooping"/>
+        <method signature="Grooping.test6()[pri:0, instance:A.Grooping@42e26948]" name="test6" class="A.Grooping"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="240083" started-at="2023-03-01T10:24:45Z" finished-at="2023-03-01T10:28:45Z">
+      <class name="A.Grooping">
+        <test-method status="PASS" signature="beforemethid()[pri:0, instance:A.Grooping@42e26948]" name="beforemethid" is-config="true" duration-ms="21543" started-at="2023-03-01T10:24:45Z" finished-at="2023-03-01T10:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethid -->
+        <test-method status="PASS" signature="test()[pri:0, instance:A.Grooping@42e26948]" name="test" duration-ms="8" started-at="2023-03-01T10:25:06Z" finished-at="2023-03-01T10:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="beforemethid()[pri:0, instance:A.Grooping@42e26948]" name="beforemethid" is-config="true" duration-ms="6607" started-at="2023-03-01T10:25:06Z" finished-at="2023-03-01T10:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethid -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:A.Grooping@42e26948]" name="test2" duration-ms="3" started-at="2023-03-01T10:25:13Z" finished-at="2023-03-01T10:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="beforemethid()[pri:0, instance:A.Grooping@42e26948]" name="beforemethid" is-config="true" duration-ms="32641" started-at="2023-03-01T10:25:13Z" finished-at="2023-03-01T10:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethid -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:A.Grooping@42e26948]" name="test3" duration-ms="1" started-at="2023-03-01T10:25:46Z" finished-at="2023-03-01T10:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="beforemethid()[pri:0, instance:A.Grooping@42e26948]" name="beforemethid" is-config="true" duration-ms="50957" started-at="2023-03-01T10:25:46Z" finished-at="2023-03-01T10:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethid -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:A.Grooping@42e26948]" name="test4" duration-ms="0" started-at="2023-03-01T10:26:36Z" finished-at="2023-03-01T10:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="beforemethid()[pri:0, instance:A.Grooping@42e26948]" name="beforemethid" is-config="true" duration-ms="64919" started-at="2023-03-01T10:26:36Z" finished-at="2023-03-01T10:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethid -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:A.Grooping@42e26948]" name="test5" duration-ms="8" started-at="2023-03-01T10:27:41Z" finished-at="2023-03-01T10:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="beforemethid()[pri:0, instance:A.Grooping@42e26948]" name="beforemethid" is-config="true" duration-ms="63364" started-at="2023-03-01T10:27:41Z" finished-at="2023-03-01T10:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethid -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:A.Grooping@42e26948]" name="test6" duration-ms="2" started-at="2023-03-01T10:28:45Z" finished-at="2023-03-01T10:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- A.Grooping -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
